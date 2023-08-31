@@ -1,2 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="C:/Users/Николай/IdeaProjects/AvitoTech/.gitignore"><classes/></test></suite>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/пїЅпїЅпїЅпїЅпїЅпїЅпїЅ/IdeaProjects/AvitoTech/.gitignore">
+        <classes>
+            <class name="test.TestCase1">
+                <methods>
+                    <include name="addToFavoriteFromProductPage"/>
+                </methods>
+            </class>
+            <class name="test.TestCase2">
+                <methods>
+                    <include name="deleteFavoriteFromProductPage"/>
+                </methods>
+            </class>
+            <class name="test.TestCase3">
+                <methods>
+                    <include name="addToFavoriteFromSearchPage"/>
+                </methods>
+            </class>
+            <class name="test.TestCase4">
+                <methods>
+                    <include name="deleteFavoriteFromSearchPage"/>
+                </methods>
+            </class>
+            <class name="test.TestCase5">
+                <methods>
+                    <include name="deleteFromFavorite"/>
+                </methods>
+            </class>
+            <class name="secondTask.SecondTask">
+                <methods>
+                    <include name="addToFavorite"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
